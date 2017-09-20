@@ -10,8 +10,6 @@
 
 
 
-
-
 ### Chap. 1 - Introduction to Python 
 
 #### 1. [Basics](1-1_Basics.ipynb)
