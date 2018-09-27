@@ -80,7 +80,7 @@ def level_points_plot( f , x_tab , f_plot_param ):
 	fig = plt.figure()
 	graphe = plt.contour(x,y,z,levels)
 	#plt.plot(3,1,'r*',markersize=15)
-	plt.clabel(graphe,  inline=1, fontsize=10,fmt='%3.2f')
+	#plt.clabel(graphe,  inline=1, fontsize=10,fmt='%3.2f')
 	plt.title(title)
 
 	delay = 4.0/x_tab.shape[0]
@@ -113,7 +113,7 @@ def level_2points_plot( f , x_tab , x_tab2 ,  f_plot_param ):
 	fig = plt.figure()
 	graphe = plt.contour(x,y,z,levels)
 	#plt.plot(3,1,'r*',markersize=15)
-	plt.clabel(graphe,  inline=1, fontsize=10,fmt='%3.2f')
+	#plt.clabel(graphe,  inline=1, fontsize=10,fmt='%3.2f')
 	plt.title(title)
 
 	delay = 4.0/x_tab.shape[0]
