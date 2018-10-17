@@ -8,7 +8,7 @@
 </table>
 <br/><br/> <center><h1> Course Presentation </h1></center>
 
-
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/iutzeler/refresher-course.git/master)
 
 ### Chap. 1 - Introduction to Python 
 
