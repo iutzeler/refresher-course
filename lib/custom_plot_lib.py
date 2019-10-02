@@ -3,6 +3,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib import cm
 from mpl_toolkits.mplot3d import Axes3D
+from IPython import display
 
 
 
@@ -59,7 +60,7 @@ def level_plot( f, f_plot_param ):
 	plt.show()
 
 
-def level_points_plot( f , x_tab , f_plot_param ):
+def level_points_plot(f, x_tab, f_plot_param, show_path: bool = False):
 
 	x1_min = f_plot_param["x1_min"]
 	x1_max = f_plot_param["x1_max"]
@@ -71,24 +72,22 @@ def level_points_plot( f , x_tab , f_plot_param ):
 	levels = f_plot_param["levels"]
 	title = f_plot_param["title"]
 
-	def f_no_vector(x1,x2):
-		return f( np.array( [x1,x2] ) )
+	x, y = np.meshgrid(np.linspace(x1_min, x1_max, nb_points),
+                       np.linspace(x2_min, x2_max, nb_points))
 
-	x , y = np.meshgrid(np.linspace(x1_min,x1_max,nb_points),np.linspace(x2_min,x2_max,nb_points))
-	z = f_no_vector(x,y)
+	z = f([x, y])
 
-	fig = plt.figure()
-	graphe = plt.contour(x,y,z,levels)
-	#plt.plot(3,1,'r*',markersize=15)
-	#plt.clabel(graphe,  inline=1, fontsize=10,fmt='%3.2f')
-	plt.title(title)
-
-	delay = 4.0/x_tab.shape[0]
 	for k in range(x_tab.shape[0]):
-		plt.plot(x_tab[k,0],x_tab[k,1],'*b',markersize=10)
-		#plt.annotate(k,(x_tab[k,0],x_tab[k,1]))
-		plt.draw()
-		plt.pause(delay)
+		plt.contour(x, y, z, levels)
+		plt.plot(*x_tab[k], '*b', markersize=5)
+		if show_path and k != 0:
+			for i in range(k):
+				plt.arrow(*x_tab[i],
+                          *np.subtract(x_tab[i + 1], x_tab[i]),
+                          width=0.0001)
+		display.clear_output(wait=True)
+		plt.pause(0.5)
+
 	plt.show()
 
 
