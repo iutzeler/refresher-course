@@ -18,4 +18,4 @@ This repository contains the notebooks for the practical sessions of the Refresh
 ## Refresher Course 
 
 ### [I - Matrix Analysis](I_Matrix_Analysis.ipynb)
-### [II -Numerical Optimization](II_Numerical_Optimization.ipynb)
+### [II - Numerical Optimization](II_Numerical_Optimization.ipynb)
