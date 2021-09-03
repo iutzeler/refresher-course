@@ -2,7 +2,7 @@
 <table>
 <tr>
 <td width=15%><img src="./img/UGA.png"></img></td>
-<td><center><a style="font-size: 22px; font-weight: bold">Refresher Course on Matrix Analysis and Optimization</a></center></td>
+<td><a style="font-size: 22px; font-weight: bold"> <center> Refresher Course on Matrix Analysis and Optimization</center> </a></td>
 <td width=15%><a href="http://www.iutzeler.org" style="font-size: 16px; font-weight: bold">Franck Iutzeler</a> <a href="https://ljk.imag.fr/membres/Jerome.Malick/" style="font-size: 16px; font-weight: bold">Jerome Malick</a> </td>
 </tr>
 </table>
