@@ -18,7 +18,7 @@ This repository contains the notebooks for the practical sessions of the Refresh
 
 ## Introduction to Python 
 
-#### [Python 101 - Basics](Python101_Basics.ipynb)
-#### [Python 102 - Using packages like Numpy and Matplotlib](Python102_Numpy_and_co.ipynb)
+### [Python 101 - Basics](Python101_Basics.ipynb)
+### [Python 102 - Using packages like Numpy and Matplotlib](Python102_Numpy_and_co.ipynb)
 
 
