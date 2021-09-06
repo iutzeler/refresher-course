@@ -9,13 +9,16 @@ This repository contains the notebooks for the practical sessions of the Refresh
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/iutzeler/refresher-course.git/master)
 
-## Introduction to Python 
-
-#### 1. [Basics](1-1_Basics.ipynb)
-#### 2. [NumPy](1-2_NumPy.ipynb)
-#### 3. [Examples in Data Science](1-3_Examples_in_Data_Science.ipynb)
 
 ## Refresher Course 
 
 ### [I - Matrix Analysis](I_Matrix_Analysis.ipynb)
 ### [II - Numerical Optimization](II_Numerical_Optimization.ipynb)
+
+
+## Introduction to Python 
+
+#### [Python 101 - Basics](Python101_Basics.ipynb)
+#### [Python 102 - Using packages like Numpy and Matplotlib](Python102_Numpy_and_co.ipynb)
+
+
