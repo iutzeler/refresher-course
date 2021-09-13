@@ -7,10 +7,13 @@
 This repository contains the notebooks for the practical sessions of the Refresher course for Master students in Applied Maths and Data Science at [Univ. Grenoble Alpes](http://www.univ-grenoble-alpes.fr). 
 
 
+
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/iutzeler/refresher-course.git/master)
 
 
 ## Refresher Course 
+
+#### [Syllabus](Syllabus.pdf)
 
 ### [I - Matrix Analysis](I_Matrix_Analysis.ipynb)
 ### [II - Numerical Optimization](II_Numerical_Optimization.ipynb)
